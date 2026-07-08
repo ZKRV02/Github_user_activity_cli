@@ -1,0 +1,23 @@
+[build_system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github user activity tracker"
+version = 1.0.0
+description = "Simple cli user github activity tracker"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "ZKRV"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+github-activity = "github_tracker.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]  
