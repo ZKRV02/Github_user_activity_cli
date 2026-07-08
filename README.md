@@ -22,3 +22,5 @@ just enter valid github name in terminal like this
 ```bash
 github-activity <name>
 ```
+
+https://roadmap.sh/projects/github-user-activity
