@@ -18,9 +18,10 @@ or
 
 
 **-USAGE-**
-just enter valid github name in terminal like this
+just enter github-activity and then enter a valid github name
 ```bash
-github-activity <name>
+github-activity
+enter github account: zkrv02 
 ```
 
 https://roadmap.sh/projects/github-user-activity
